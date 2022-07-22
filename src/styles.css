@@ -11,6 +11,7 @@ body {
   flex-direction: column;
 }
 
+
 .header-title {
   display: flex;
   gap: 20px;
@@ -31,14 +32,17 @@ body {
 
 .meme-container {
   display: flex;
-  margin: 40px 20px;
+  margin: 40px 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .meme-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
   size: 30;
 }
 
@@ -65,4 +69,10 @@ input {
   font-size: 18px;
   font-weight: bold;
   border: 2px solid black;
+}
+
+.meme-img {
+  height: 500px;
+  padding-top: 30px;
+  max-width: 100%;
 }
